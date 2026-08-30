@@ -1,28 +1,49 @@
-# Weather API
+# 🌦️ Weather Now
 
-A simple RESTful Weather API built using Kotlin and Ktor.
+A simple RESTful Weather API built using **Kotlin** and **Ktor**.  
+The application fetches real-time weather information for a given city and provides it through a clean API endpoint.
 
-## Features
+## 🚀 Features
 
-- Get weather information by city
-- Temperature
-- Feels-like temperature
-- Weather condition
-- Humidity
-- Wind speed
-- REST API endpoint
+- 🌡️ Current temperature
+- 🤗 Feels-like temperature
+- ☁️ Weather condition
+- 💧 Humidity
+- 💨 Wind speed
+- 🌍 Weather information by city
+- 🔗 RESTful API endpoint
+- 📦 JSON response support
+- ⚡ Built with Kotlin and Ktor
 
-## Technologies Used
+## 🛠️ Technologies Used
 
-- Kotlin
-- Ktor
-- Gradle
-- REST API
-- wttr.in Weather Service
+- **Kotlin**
+- **Ktor**
+- **Gradle**
+- **Kotlinx Serialization**
+- **REST API**
+- **JSON**
+- **Git & GitHub**
 
-## API Endpoint
-
-### Get Weather
+## 📁 Project Structure
 
 ```text
-GET /weather/{city}
+weather-now/
+├── src/
+│   ├── main/
+│   │   ├── kotlin/
+│   │   │   ├── Http.kt
+│   │   │   ├── main.kt
+│   │   │   ├── Routing.kt
+│   │   │   ├── Serialization.kt
+│   │   │   └── WeatherService.kt
+│   │   └── resources/
+│   │       ├── application.yaml
+│   │       └── logback.xml
+│   └── test/
+├── gradle/
+├── build.gradle.kts
+├── gradle.properties
+├── gradlew
+├── gradlew.bat
+└── settings.gradle.kts
